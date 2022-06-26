@@ -1,0 +1,306 @@
+/* This is header css */
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+
+    font-family: "Ubuntu", sans-serif;
+    background-color: azure;
+}
+header {
+  background-color: white;
+}
+li {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+li:hover {
+  background-color: white;
+  color: blue;
+}
+.port {
+  font-family: "Ubuntu", sans-serif;
+  float: left;
+  padding: 15px;
+  font-size: 30px;
+  color: blue;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+}
+/* .icon{
+    display: flex;
+    
+    float: right;
+} */
+.iconimg {
+  margin: -8px;
+  border-radius: 150px;
+}
+/* .iconimg:hover{
+    border: 2px solid blue;
+} */
+nav {
+  display: inline-block;
+  height: 67px;
+}
+
+/* This is Body css */
+.body {
+  /* background-image: url("img/background.png"); */
+  height: 90vh;
+  width: 100%;
+}
+.hello {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+.im,
+.me {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 40px;
+  font-size: 70px;
+}
+.me {
+  color: blue;
+  padding-top: 30px;
+}
+.design {
+  margin-left: 40px;
+  font-size: 40px;
+  padding-top: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+.from {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.hair {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 40px;
+  height: 60px;
+  width: 172px;
+  font-size: 26px;
+  margin-top: 13px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.hair:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+/* about css design */
+.aboutme{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+}
+.hr{
+    height: 6px;
+    width: 210px;
+    background-color: blue;
+    color: blue;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+.hr2{
+    height: 6px;
+    width: 160px;
+    background-color: blue;
+    color: blue;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+hr{
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.saif{
+    height: 400px;
+    border-radius: 5px;
+}
+.box2{
+    height: 30vw;
+    width: 100vh;
+    
+}
+.box1, .box2{
+    margin: 40px;
+}
+.passion{
+    padding: 60px;
+    font-size: 30px;
+    color: blue;
+}
+.myself{
+    line-height: 25px;
+}
+.cv{
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 0px;
+    height: 60px;
+    width: 241px;
+    font-size: 26px;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.cv:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+/* skills css design */
+.myskills{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+  }
+  .twobox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.bx1, .bx2{
+  margin: 45px;
+  height: 60vh;
+  width: 40vw;
+}
+.know{
+  padding: 20px;
+  color: blue;
+  margin-left: 20px;
+}
+.knowledge{
+  padding: 20px;
+}
+.bx2{
+  background-color: azure;
+}
+.tweyr{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.two{
+  font-size: 70px;
+  padding-left: 20px;
+}
+.ex{
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.bx2{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.ht{
+  color: blue;
+}
+.hp{
+  font: 160px;
+  margin-top: 30px;
+}
+.icon{
+  height: 40px;
+  margin-left: 150px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.lec{
+  text-align: center;
+}
+.contant1{
+  height: 280px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  margin: 23px;
+}
+.contant1:hover{
+  background-color: blue;
+  color: white;
+}
+.lx{
+  padding: 40px;
+  margin-top: 0px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+  flex-wrap: wrap;
+}
+.pro{
+  text-align: center;
+  padding: 30px;
+}
+.prop{
+  text-align: center;
+}
+.chet{
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 42vw;
+  margin-top: 13px;
+  
+  height: 60px;
+  width: 172px;
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.chet:hover{
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+footer{
+  background-color: blue;
+  color: white;
+  height: 13vh;
+  width: 100%;
+  margin-top: 40px;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: black;
+}
+.foot{
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}

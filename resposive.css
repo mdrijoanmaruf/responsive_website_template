@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+  .port {
+    display: none;
+  }
+  header {
+    height: 100px;
+    width: 100%;
+    background: none;
+  }
+  li {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  nav {
+    height: 60px;
+  }
+  .me {
+    font-size: 43px;
+  }
+  .aboutme {
+    margin-top: 110vw;
+  }
+  .passion {
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .saif {
+    height: 350px;
+  }
+  .cont {
+    display: none;
+  }
+  .chet {
+    margin-left: 30vw;
+  }
+  .myskills{
+    margin-top: 60vw;
+  }
+  .bx1{
+    width: 98vw;
+  }
+  .bx2{
+    width: 98vw;
+    margin-top: -120px;
+    grid-row-gap: 10px;
+  }
+  .css,.js, .php, .html{
+    height: 9vh;
+  }
+  .bx2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 30vw 30vw;
+  }
+  .services{
+    margin-top: -55vh;
+  }
+  .myskills{
+    color: blue;
+  }
+  .contrac{
+    margin-top: -20vh;
+  }
+}
